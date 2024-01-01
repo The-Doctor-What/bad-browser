@@ -9,6 +9,7 @@ main {
     left: 30%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .image img{
@@ -32,4 +33,10 @@ main {
 .link:hover {
     background: #99aab5;
     color: #000000;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
